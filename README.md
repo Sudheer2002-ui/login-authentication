@@ -1,8 +1,5 @@
 # Authentication
-
-Given an `app.js` file and a database file `userData.db` consisting of a  table `user`.
-
-Write APIs to perform operations on the table `user` containing the following columns,
+Writing APIs to perform operations on the table `user` containing the following columns,
 
 **User Table**
 
@@ -211,6 +208,3 @@ Write APIs to perform operations on the table `user` containing the following co
 
 Use `npm install` to install the packages.
 
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
