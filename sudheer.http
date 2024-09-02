@@ -1,0 +1,24 @@
+post http://localhost:3000/register
+Content-Type: application/json
+{
+  "username": "aravind",
+  "name": "Guntha Aravindu",
+  "password": "Aravind123",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+post http://localhost:3000/login
+Content-Type: application/json
+{
+  "username": "sudheer",
+  "password": "Sudheer123"
+}
+
+put http://localhost:3000/change-password
+Content-Type:application/json
+{
+  "username": "aravind",
+  "oldPassword": "Aravind123",
+  "newPassword": "gajjiaravindu"
+}
